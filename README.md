@@ -13,7 +13,7 @@ As a proof of concept, this app probably will not be maintained and its not inte
 2. Run `npm start dev` in the `frontend` directory
 3. For Receive Audio: 
     1. Select the source audio device from the dropdown menu
-    2. Select a receiver device to attach the source to
+    2. Select a receiver device to attach the source to (The best way to work if this is with some audio virtual drivers capable to receive it (like VB audio apps)
 4. For Send Audio: 
     1. Select the local audio device to broadcast from
     2. Enter the stream name to broadcast as
