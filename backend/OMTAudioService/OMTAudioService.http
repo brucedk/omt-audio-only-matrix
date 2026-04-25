@@ -1,0 +1,6 @@
+@OMTAudioService_HostAddress = http://localhost:5220
+
+GET {{OMTAudioService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

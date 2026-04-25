@@ -1,0 +1,83 @@
+# =========================
+# Operating System Files
+# =========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# =========================
+# IDEs & Editors
+# =========================
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.docstates
+.vs/
+
+# =========================
+# Node.js & React (Frontend)
+# =========================
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.eslintcache
+
+# =========================
+# .NET / C# (Backend)
+# =========================
+[Bb]in/
+[Oo]bj/
+*.user
+*.userosscache
+*.sln.rsuser
+*.suo
+*.log
+*.err
+
+# Publish outputs
+[Pp]ublish/
+[Pp]ublish[Oo]utput/
+out/
+app.publish/
+
+# Local appsettings
+backend/OMTAudioService/appsettings.Development.json
+backend/OMTAudioService/appsettings.*.json
+!backend/OMTAudioService/appsettings.json
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# =========================
+# Temporary & Cache Files
+# =========================
+*.bak
+*.swp
+*.tmp
+*.temp
+.temp/
+.tmp/
